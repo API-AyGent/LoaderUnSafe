@@ -279,7 +279,7 @@ task.spawn(function()
     end)
 
     -- 6. Outro Fade & Cleanup
-    task.wait(1)
+    task.wait(0.1)
     local fadeOut = TweenService:Create(MainFrame, TweenInfo.new(Config.FadeTime, Enum.EasingStyle.Quad, Enum.EasingDirection.In), {GroupTransparency = 1, Size = UDim2.new(0, 440, 0, 230)})
     TweenService:Create(MainStroke, TweenInfo.new(Config.FadeTime), {Transparency = 1}):Play()
     fadeOut:Play()
