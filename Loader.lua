@@ -18,7 +18,7 @@ local Config = {
     DowntimeReason = "Script is currently undergoing maintenance to bypass new anti-cheats. Check Discord(.gg/DdjVT2aMwx)",
     
     -- The script to execute when all checks pass
-    TargetScript = [[loadstring(game:HttpGet("https://raw.githubusercontent.com/FuddyOG/MainOptimumRealScript/refs/heads/main/MainOptumumRealScript.lua"))()]],
+    TargetScript = [[loadstring(game:HttpGet("https://raw.githubusercontent.com/API-AyGent/KalminKeySystem/refs/heads/main/Kalmin.lua"))()]],
     
     -- Visual timings (Seconds)
     CheckDelay = 1.2, -- How long it fakes "checking" per step for the visual effect
