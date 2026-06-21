@@ -1,7 +1,3 @@
---[[
-    Kalmin Secure Loader - Elite Terminal Edition
-    Features: Smooth UI fading, asynchronous checking, dynamic progress bar, and rich text formatting.
-]]
 
 local CoreGui = game:GetService("CoreGui")
 local Players = game:GetService("Players")
