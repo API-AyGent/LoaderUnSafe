@@ -226,9 +226,9 @@ task.spawn(function()
     local isSafe = RunCheck(LineBlacklist, "Checking Blacklist", function()
         task.wait(Config.CheckDelay)
         if table.find(Config.Blacklist, game.PlaceId) then
-            return "Nope", Colors.Red, false
+            return "Skipped", Colors.Green, false
         end
-        return "Good", Colors.Green, true
+        return "Skipped", Colors.Green, true
     end)
 
     if not isSafe then
